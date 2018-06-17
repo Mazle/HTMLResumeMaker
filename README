@@ -5,7 +5,7 @@
 mvn package
 4. в папку проекта src/ поместите properties файл с необходимыми данными для резюме.
 5. При успешном завершении пункта 3 запустите командную строку из каталога target и наберите:
-java -jar JavaTestTask-jar-with-dependencies.jar ../src/{NAME_OF_PROPERTIES_FILE}
+java -jar HTMLResumeMaker-jar-with-dependencies.jar ../src/{NAME_OF_PROPERTIES_FILE}
 где {NAME_OF_PROPERTIES_FILE} - имя файла без расширения.
 6.Откройте сформированный программой файл outfile.html
 
