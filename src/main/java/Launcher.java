@@ -2,6 +2,7 @@ package main.java;
 
 import main.java.model.beans.SeekerDescription;
 
+import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import main.java.presenter.JavaTestPresenter;
 import main.java.view.HTMLCreater;
@@ -16,8 +17,13 @@ import java.io.File;
  */
 public class Launcher {
     public static void main(String[] args) {
-        DOMConfigurator.configure("log4j.properties");
-        System.out.println(new File(".").getAbsolutePath());
+        try {
+            PropertyConfigurator.configure("log4j.properties");
+        } catch (NullPointerException e) {
+            System.out.println("there is no external config for log4j. Binding default internal config.");
+            System.out.println(System.getProperty("java.class.path"));
+            PropertyConfigurator.configure(Launcher.class.getResourceAsStream("/resources/log4j.properties"));
+        }
         JavaTestPresenter presenter = new JavaTestPresenter(args[0]);
         SeekerDescription seekerDescription = presenter.getResumeContent();
 
