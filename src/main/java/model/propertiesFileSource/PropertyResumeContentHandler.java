@@ -1,7 +1,8 @@
-package Model.PropertiesFileSource;
+package main.java.model.propertiesFileSource;
 
-import Model.Beans.SeekerDescription;
-import Model.SeekerDescriptionHandler;
+import main.java.model.beans.SeekerDescription;
+import main.java.model.SeekerDescriptionHandler;
+import org.apache.log4j.Logger;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -15,6 +16,7 @@ import java.util.Properties;
  * является обработчиком.
  */
 public class PropertyResumeContentHandler implements SeekerDescriptionHandler {
+    private static final Logger log = Logger.getLogger(PropertyResumeContentHandler.class);
     private Properties property = new Properties();
     @Override
 
@@ -36,6 +38,7 @@ public class PropertyResumeContentHandler implements SeekerDescriptionHandler {
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
+        log.info("Data extracted for seeker" + seekerDescription.getFio());
         System.out.println(seekerDescription.getAdditionalEducation().get(0));
         return seekerDescription;
     }
@@ -46,7 +49,6 @@ public class PropertyResumeContentHandler implements SeekerDescriptionHandler {
             StringBuilder builder = new StringBuilder();
             builder.append(name).append(".properties");
             FileInputStream fis = new FileInputStream(builder.toString());
-
             property.load(fis);
         } catch (IOException e) {
             System.err.println("ОШИБКА: Файл свойств отсуствует! " + name);

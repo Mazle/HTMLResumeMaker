@@ -1,8 +1,7 @@
-package Model.PropertiesFileSource;
+package main.java.model.propertiesFileSource;
 
-import Model.Beans.SeekerDescription;
-import Model.DAOFactory;
-import Model.SeekerDescriptionHandler;
+import main.java.model.DAOFactory;
+import main.java.model.SeekerDescriptionHandler;
 
 /**
  * Created by PalibinFamily on 12.06.2018.

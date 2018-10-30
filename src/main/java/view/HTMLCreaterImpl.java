@@ -1,6 +1,6 @@
-package View;
+package main.java.view;
 
-import Model.Beans.SeekerDescription;
+import main.java.model.beans.SeekerDescription;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
@@ -81,7 +81,7 @@ public class HTMLCreaterImpl implements HTMLCreater {
 
     private void loadTemplate () {
         try {
-            template = cfg.getTemplate("Resourses/index.html");
+            template = cfg.getTemplate("resources/index.html");
         } catch (IOException e) {
             //e.printStackTrace();
             System.out.println("Шаблон index.html не найден");

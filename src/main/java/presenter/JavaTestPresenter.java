@@ -1,8 +1,8 @@
-package Presenter;
+package main.java.presenter;
 
-import Model.Beans.SeekerDescription;
-import Model.DAOFactory;
-import Model.SeekerDescriptionHandler;
+import main.java.model.beans.SeekerDescription;
+import main.java.model.DAOFactory;
+import main.java.model.SeekerDescriptionHandler;
 
 /**
  * Created by PalibinFamily on 11.06.2018.

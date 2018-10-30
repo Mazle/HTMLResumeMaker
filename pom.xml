@@ -21,6 +21,12 @@
 			<artifactId>freemarker</artifactId>
 			<version>2.3.23</version>
 		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -30,8 +36,8 @@
 		<!-- copy this resources into archive -->
 		<resources>
 			<resource>
-				<directory>src/Resourses</directory>
-				<targetPath>Resourses</targetPath>
+				<directory>src/main/resources</directory>
+				<targetPath>resources</targetPath>
 			</resource>
 		</resources>
 		<plugins>

@@ -1,6 +1,6 @@
-package View;
+package main.java.view;
 
-import Model.Beans.SeekerDescription;
+import main.java.model.beans.SeekerDescription;
 
 /**
  * Created by PalibinFamily on 13.06.2018.
