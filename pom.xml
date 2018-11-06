@@ -27,12 +27,18 @@
 			<version>1.2.17</version>
 		</dependency>
 
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+		</dependency>
 	</dependencies>
 
 	<build>
 		<!-- Output filename in directory ./target -->
 		<finalName>HTMLResumeMaker</finalName>
 		<sourceDirectory>src</sourceDirectory>
+		<defaultGoal>package</defaultGoal>
 		<!-- copy this resources into archive -->
 		<resources>
 			<resource>

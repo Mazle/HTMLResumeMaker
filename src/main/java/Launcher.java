@@ -10,6 +10,7 @@ import main.java.view.HTMLCreaterImpl;
 import org.apache.log4j.xml.DOMConfigurator;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 
 /**
  * Created by PalibinFamily on 11.06.2018.

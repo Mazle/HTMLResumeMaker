@@ -45,7 +45,6 @@ public class PropertyResumeContentHandler implements SeekerDescriptionHandler {
 
     private void loadPropertyByName(String name) {
         try {
-            String path = "src/";
             StringBuilder builder = new StringBuilder();
             builder.append(name).append(".properties");
             FileInputStream fis = new FileInputStream(builder.toString());

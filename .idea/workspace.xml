@@ -7,10 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="574203d8-4446-4114-8851-e1f23d291172" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/java/PropertyResumeContentHandlerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/java/testDescription.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JavaTestTask_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_freemarker_freemarker_2_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLResumeMaker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLResumeMaker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/propertiesFileSource/PropertyResumeContentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/propertiesFileSource/PropertyResumeContentHandler.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,32 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HTMLCreaterImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/view/HTMLCreaterImpl.java">
+      <file leaf-file-name="Configuration.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/freemarker/freemarker/2.3.23/freemarker-2.3.23-sources.jar!/freemarker/template/Configuration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="83" column="33" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
-              <folding>
-                <element signature="method#configurationInit#0;class#HTMLCreaterImpl#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Configuration.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar!/freemarker/template/Configuration.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10421">
-              <caret line="710" column="56" selection-start-line="710" selection-start-column="56" selection-end-line="710" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TemplateCache.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar!/freemarker/cache/TemplateCache.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="105" column="46" selection-start-line="105" selection-start-column="46" selection-end-line="105" selection-end-column="46" />
+            <state relative-caret-position="162">
+              <caret line="1775" column="20" selection-start-line="1775" selection-start-column="20" selection-end-line="1775" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -59,17 +52,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MANIFEST.MF" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="32" lean-forward="true" selection-end-line="2" selection-end-column="32" />
+            <state relative-caret-position="221">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -77,8 +61,8 @@
       <file leaf-file-name="Launcher.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Launcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+            <state relative-caret-position="204">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,30 +73,69 @@
       <file leaf-file-name="PropertyResumeContentHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/propertiesFileSource/PropertyResumeContentHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="18" column="91" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="91" />
+            <state relative-caret-position="215">
+              <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testDescription.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/test/java/testDescription.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PropertyResumeContentHandlerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/test/java/PropertyResumeContentHandlerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="103" selection-start-line="6" selection-start-column="103" selection-end-line="6" selection-end-column="103" />
               <folding>
-                <element signature="method#loadPropertyByName#0;class#PropertyResumeContentHandler#0" />
-                <element signature="method#getListFromField#0;class#PropertyResumeContentHandler#0" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="59" selection-start-line="7" selection-end-line="7" selection-end-column="59" />
+            <state relative-caret-position="306">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PropertyConfigurator.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/PropertyConfigurator.class">
+      <file leaf-file-name="SeekerDescription.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/beans/SeekerDescription.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
+            <state relative-caret-position="-146">
+              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaTestPresenter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/presenter/JavaTestPresenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+              <folding>
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PropertiesFileDAOFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/propertiesFileSource/PropertiesFileDAOFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -129,6 +152,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>java</find>
+      <find>open</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -166,11 +190,15 @@
         <option value="$PROJECT_DIR$/src/resourses/log4j.properties" />
         <option value="$PROJECT_DIR$/src/Launcher.java" />
         <option value="$PROJECT_DIR$/src/main/Launcher.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/view/HTMLCreaterImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/log4j.properties" />
         <option value="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/src/main/java/model/propertiesFileSource/PropertyResumeContentHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/Launcher.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/test/java/testDescription.properties" />
+        <option value="$PROJECT_DIR$/src/main/test/java/PropertyResumeContentHandlerTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -179,6 +207,32 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="HTMLResumeMaker" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="HTMLResumeMaker" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="HTMLResumeMaker" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Run Configurations" type="21c1f71a:MavenProjectsStructure$RunConfigurationsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="HTMLResumeMaker" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
@@ -194,7 +248,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,27 +279,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HTMLResumeMaker" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTMLResumeMaker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="propertiesFileSource" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HTMLResumeMaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLResumeMaker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
@@ -262,29 +309,31 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Model" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\JAVA_PROJECTS\HTMLResumeMaker\src\main\java" />
-      <recent name="$PROJECT_DIR$/src/resources" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="main" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\JAVA_PROJECTS\HTMLResumeMaker\src\main\java" />
       <recent name="D:\JAVA_PROJECTS\HTMLResumeMaker\src\main" />
       <recent name="D:\JAVA_PROJECTS\HTMLResumeMaker\src\java" />
       <recent name="D:\JAVA_PROJECTS\HTMLResumeMaker\src\resourses" />
       <recent name="D:\JAVA_PROJECTS\HTMLResumeMaker\src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DEV\JAVA_PROJECTS\HTMLResumeMaker\src\main\test\java" />
+      <recent name="D:\JAVA_PROJECTS\HTMLResumeMaker\src\main\java" />
+      <recent name="$PROJECT_DIR$/src/resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -299,7 +348,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PropertyResumeContentHandlerTest.getTestDescription (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -313,6 +362,69 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="PropertyResumeContentHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HTMLResumeMaker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.test.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="main.test.java" />
+      <option name="MAIN_CLASS_NAME" value="main.test.java.PropertyResumeContentHandlerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PropertyResumeContentHandlerTest.getTestDescription (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HTMLResumeMaker" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PropertyResumeContentHandlerTest" />
+      <option name="METHOD_NAME" value="getTestDescription" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PropertyResumeContentHandlerTest.getTestDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HTMLResumeMaker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.test.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="main.test.java.PropertyResumeContentHandlerTest" />
+      <option name="METHOD_NAME" value="getTestDescription" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -339,6 +451,54 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="src/main/java/MyContent" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="src/main/java/MyContent" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -389,8 +549,18 @@
       </Profilers>
       <method />
     </configuration>
+    <list>
+      <item itemvalue="Maven.Unnamed" />
+      <item itemvalue="Application.Launcher" />
+      <item itemvalue="JUnit.PropertyResumeContentHandlerTest" />
+      <item itemvalue="JUnit.PropertyResumeContentHandlerTest.getTestDescription" />
+      <item itemvalue="JUnit.PropertyResumeContentHandlerTest.getTestDescription (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PropertyResumeContentHandlerTest.getTestDescription (1)" />
+        <item itemvalue="JUnit.PropertyResumeContentHandlerTest.getTestDescription" />
+        <item itemvalue="JUnit.PropertyResumeContentHandlerTest" />
         <item itemvalue="Application.Launcher" />
       </list>
     </recent_temporary>
@@ -412,43 +582,98 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="PropertyResumeContentHandlerTest_getTestDescription - 2018.11.06 at 13h 33m 55s.xml">
+      <configuration name="PropertyResumeContentHandlerTest.getTestDescription" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PropertyResumeContentHandlerTest_getTestDescription - 2018.11.06 at 13h 38m 02s.xml">
+      <configuration name="PropertyResumeContentHandlerTest.getTestDescription" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PropertyResumeContentHandlerTest_getTestDescription - 2018.11.06 at 13h 38m 49s.xml">
+      <configuration name="PropertyResumeContentHandlerTest.getTestDescription" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PropertyResumeContentHandlerTest_getTestDescription - 2018.11.06 at 13h 40m 06s.xml">
+      <configuration name="PropertyResumeContentHandlerTest.getTestDescription" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PropertyResumeContentHandlerTest_getTestDescription - 2018.11.06 at 13h 40m 38s.xml">
+      <configuration name="PropertyResumeContentHandlerTest.getTestDescription" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PropertyResumeContentHandlerTest_getTestDescription - 2018.11.06 at 13h 40m 51s.xml">
+      <configuration name="PropertyResumeContentHandlerTest.getTestDescription" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PropertyResumeContentHandlerTest_getTestDescription - 2018.11.06 at 13h 44m 24s.xml">
+      <configuration name="PropertyResumeContentHandlerTest.getTestDescription" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PropertyResumeContentHandlerTest_getTestDescription - 2018.11.06 at 13h 45m 49s.xml">
+      <configuration name="PropertyResumeContentHandlerTest.getTestDescription" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PropertyResumeContentHandlerTest_getTestDescription - 2018.11.06 at 13h 46m 06s.xml">
+      <configuration name="PropertyResumeContentHandlerTest.getTestDescription" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PropertyResumeContentHandlerTest_getTestDescription_(1) - 2018.11.06 at 13h 47m 38s.xml">
+      <configuration name="PropertyResumeContentHandlerTest.getTestDescription (1)" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23038000" />
+    <option name="totallyTimeSpent" value="34124000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29245284" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298969" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Messages" order="20" />
+      <window_info anchor="right" id="Palette&#9;" order="16" />
+      <window_info id="Image Layers" order="14" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.09590044" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.21226415" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33962265" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22767204" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5676101" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39779875" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info id="Nl-Palette" order="2" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Properties" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6069182" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.47955975" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.25" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info id="Nl-Palette" order="9" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="16" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="19" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.39779875" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info id="Image Layers" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info anchor="right" id="Database" order="15" />
+      <window_info id="Capture Tool" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="17" weight="0.3298969" />
+      <window_info anchor="right" id="Capture Analysis" order="12" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" id="Properties" order="13" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info id="UI Designer" order="12" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.47955975" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.29245284" />
+      <window_info anchor="bottom" id="Messages" order="18" />
+      <window_info anchor="right" id="Palette" order="14" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="Designer" order="13" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,13 +686,49 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/view/HTMLCreaterImpl.java</url>
-          <line>51</line>
+          <url>file://$PROJECT_DIR$/src/main/java/Launcher.java</url>
+          <line>23</line>
           <properties />
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Launcher.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Launcher.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Launcher.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/test/java/PropertyResumeContentHandlerTest.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/test/java/PropertyResumeContentHandlerTest.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/test/java/PropertyResumeContentHandlerTest.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -475,31 +736,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/propertiesFileSource/PropertiesFileDAOFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="80" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/SeekerDescriptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/beans/SeekerDescription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/propertiesFileSource/PropertyResumeContentHandler.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resourses/ReadMe" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Launcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -590,24 +826,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/propertiesFileSource/PropertiesFileDAOFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/SeekerDescriptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/beans/SeekerDescription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="129" selection-start-line="129" selection-end-line="129" />
         </state>
       </provider>
     </entry>
@@ -631,13 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/presenter/JavaTestPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -645,13 +860,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/resourses/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="66" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/resourses/log4j.properties" />
     <entry file="file://$PROJECT_DIR$/src/java.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/MyContent.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -660,29 +869,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/File.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/PropertyConfigurator.class">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/FileInputStream.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/view/HTMLCreaterImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="83" column="33" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
+        <state relative-caret-position="4063">
+          <caret line="274" column="11" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
           <folding>
-            <element signature="method#configurationInit#0;class#HTMLCreaterImpl#0" />
+            <element signature="e#21135#21136#0" expanded="true" />
+            <element signature="e#21162#21163#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar!/freemarker/template/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10421">
-          <caret line="710" column="56" selection-start-line="710" selection-start-column="56" selection-end-line="710" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -700,31 +894,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/propertiesFileSource/PropertyResumeContentHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="91" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="91" />
-          <folding>
-            <element signature="method#loadPropertyByName#0;class#PropertyResumeContentHandler#0" />
-            <element signature="method#getListFromField#0;class#PropertyResumeContentHandler#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/log4j.properties" />
     <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -732,10 +902,118 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/HTMLCreaterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="method#configurationInit#0;class#HTMLCreaterImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar!/freemarker/template/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="724" column="84" selection-start-line="724" selection-start-column="84" selection-end-line="724" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/xml/DOMConfigurator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8194">
+          <caret line="526" column="42" selection-start-line="526" selection-start-column="42" selection-end-line="526" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/PropertyConfigurator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/propertiesFileSource/PropertiesFileDAOFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/freemarker/freemarker/2.3.23/freemarker-2.3.23-sources.jar!/freemarker/template/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="1775" column="20" selection-start-line="1775" selection-start-column="20" selection-end-line="1775" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/beans/SeekerDescription.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/java/testDescription.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/propertiesFileSource/PropertyResumeContentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="91" column="11" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/presenter/JavaTestPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/java/PropertyResumeContentHandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="103" selection-start-line="6" selection-start-column="103" selection-end-line="6" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Launcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+        <state relative-caret-position="204">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
