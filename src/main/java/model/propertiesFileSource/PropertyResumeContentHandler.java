@@ -8,6 +8,8 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Properties;
 
 /**
@@ -45,9 +47,7 @@ public class PropertyResumeContentHandler implements SeekerDescriptionHandler {
 
     private void loadPropertyByName(String name) {
         try {
-            StringBuilder builder = new StringBuilder();
-            builder.append(name).append(".properties");
-            FileInputStream fis = new FileInputStream(builder.toString());
+            FileInputStream fis = new FileInputStream(name);
             property.load(fis);
         } catch (IOException e) {
             System.err.println("ОШИБКА: Файл свойств отсуствует! " + name);
@@ -66,6 +66,18 @@ public class PropertyResumeContentHandler implements SeekerDescriptionHandler {
         ArrayList<String> listFromField = new ArrayList<>();
         for (String value: propertyValueContent.split("\n")) {
             listFromField.add(value);
+        }
+        if (listFromField.size()<2&&listFromField.get(0).contains(":")) {
+            HashMap<String,String> fieldMap = new HashMap<>();
+            for (String pair: listFromField.get(0).split(",")) {
+                String[] kvArray = pair.split(":");
+                fieldMap.put(kvArray[0],kvArray[1]);
+            }
+            fieldMap.entrySet()
+                    .stream()
+                    .sorted((a,b)->(Integer.parseInt(b.getValue()) - Integer.parseInt(a.getValue())))
+                    .forEach(a->listFromField.add(a.getKey()+":"+a.getValue()));
+            listFromField.remove(0);
         }
         return  listFromField;
     }
