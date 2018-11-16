@@ -1,0 +1,108 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+	<h1 align="center">Резюме на должность Java-стажер</h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<p><h6>ФИО:</h6> ${seekerDescription.fio}</p>
+				<p><h6>Дата рождения:</h6> ${birthDate}</p>
+				<p><h6>Номер телефона:</h6>
+				<ul>
+				<#list telNumber as telNumberItem>
+					<li>${telNumberItem}
+				</#list>
+			</ul></p>
+				<p><h6>e-mail:</h6> <ul>
+				<#list eMail as eMailItem>
+					<li>${eMailItem}
+				</#list>
+			</ul></p>
+			</div>
+			<div class="col-sm-6"  >
+				<img src =${imgSrc} height="100%" width="100%" alt=${imgSrc}>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<p><h3>Цель:</h3></p>
+				<ul>
+					 <#list target as targetItem>
+					   <li>${targetItem}
+					 </#list>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<p><h3>Опыт:</h3></p>
+				<ul>
+					<#list experience as experienceItem>
+					<li>${experienceItem}
+					</#list>
+				</ul>
+			</div>			
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<p><h3>Образовние:</h3></p>
+				<ul>
+					<#list education as educationItem>
+						<li>${educationItem}
+					</#list>
+				</ul>
+			</div>		
+			
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<p><h3>Доп.Образование и курсы:</h3></p>
+				<ul>
+					<#list additionalEducation as additionalEducationItem>
+					<li>${additionalEducationItem}
+					</#list>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<p><h3>Навыки:</h3></p>
+				<ul>
+					<#list skills as skillsItem>
+						<li>${skillsItem}
+					</#list>
+				</ul>
+			</div>			
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<p><h3>Пример кода:</h3></p>
+				<ul>
+					<#list codeExample as codeExample>
+						<li>${codeExample}
+					</#list>
+				</ul>
+			</div>		
+			
+		</div>
+	</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>
+
