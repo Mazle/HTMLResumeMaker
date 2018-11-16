@@ -13,6 +13,7 @@ import java.util.ArrayList;
  *           ...
  *           .setCodeExample
   */
+//todo: сделать поддержку ассоциативных массивов в сеттерах
 public class SeekerDescription {
     private String fio;
     private String birthDate;
@@ -66,14 +67,14 @@ public class SeekerDescription {
         return codeExample;
     }
 
-    public SeekerDescription setFio(ArrayList<String> fio) {
+    public SeekerDescription setFio(String fio) {
 
-        this.fio = fio.get(0);
+        this.fio = fio;
         return this;
     }
 
-    public SeekerDescription setBirthDate(ArrayList<String> birthDate) {
-        this.birthDate = birthDate.get(0);
+    public SeekerDescription setBirthDate(String birthDate) {
+        this.birthDate = birthDate;
         return this;
     }
 

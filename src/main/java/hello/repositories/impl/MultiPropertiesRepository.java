@@ -24,6 +24,7 @@ public class MultiPropertiesRepository implements SeekerDescriptionRepository {
         seekerDescription = new SeekerDescription();
             propertyFileSource.stream().forEach((filePath) -> {
                 //вызов потоков
+                new ReadingProperties(filePath,filePath);
             });
         }
         return seekerDescription;
@@ -41,8 +42,62 @@ public class MultiPropertiesRepository implements SeekerDescriptionRepository {
             try(FileInputStream fis = new FileInputStream(filePath)) {
                 Properties property = new Properties();
                 property.load(fis);
-                Arrays.stream(KEYS).forEach((field)->{
-                    if (property.containsKey(field))
+                Arrays.stream(KEYS).forEach((key)->{
+                    //не самая лучшая реализация, но оставлю на рефакторинг, если будет время
+                    if (property.containsKey(key)) {
+                        switch (key){
+                            case "FIO": seekerDescription.setFio(property.getProperty(key));
+                            case "BirthDate": seekerDescription.setBirthDate(property.getProperty(key));
+                            case "TelNumber": seekerDescription.setTelNumber(
+                                    (ArrayList<String>) Arrays.asList(
+                                            property.getProperty(key).split("\n")
+                                    )
+                            );
+                            case "E-Mail": seekerDescription.seteMail(
+                                    (ArrayList<String>) Arrays.asList(
+                                            property.getProperty(key).split("\n")
+                                    )
+                            );
+                            case "Target": seekerDescription.setTarget(
+                                    (ArrayList<String>) Arrays.asList(
+                                            property.getProperty(key).split("\n")
+                                    )
+                            );
+                            case "Experience": seekerDescription.setExperience(
+                                    (ArrayList<String>) Arrays.asList(
+                                            property.getProperty(key).split("\n")
+                                    )
+                            );
+                            case "Education": seekerDescription.setEducation(
+                                    (ArrayList<String>) Arrays.asList(
+                                            property.getProperty(key).split("\n")
+                                    )
+                            );
+                            case "AdditionalEducation": seekerDescription.setAdditionalEducation(
+                                    (ArrayList<String>) Arrays.asList(
+                                            property.getProperty(key).split("\n")
+                                    )
+                            );
+                            case "Skills": seekerDescription.setSkills(
+                                    (ArrayList<String>) Arrays.asList(
+                                            property.getProperty(key).split("\n")
+                                    )
+                            );
+                            case "CodeExample": seekerDescription.setCodeExample(
+                                    (ArrayList<String>) Arrays.asList(
+                                            property.getProperty(key).split("\n")
+                                    )
+                            );
+                            case "ImageSrc": seekerDescription.setImgSrc(
+                                    (ArrayList<String>) Arrays.asList(
+                                            property.getProperty(key).split("\n")
+                                    )
+                            );
+                             default:
+
+                        }
+
+                    }
                 });
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
@@ -51,5 +106,7 @@ public class MultiPropertiesRepository implements SeekerDescriptionRepository {
                 e.printStackTrace();
             }
         }
+
+
     }
 }
